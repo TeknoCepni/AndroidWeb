@@ -48,8 +48,8 @@ public class JsoupActivity extends AppCompatActivity {
             super.onPreExecute();
 
             progressDialog = new ProgressDialog(JsoupActivity.this);
-            progressDialog.setTitle("LOGO");
-            progressDialog.setMessage("Logo Çekiliyor...");
+            progressDialog.setTitle("Resim ve Text");
+            progressDialog.setMessage("Datalar Çekiliyor...");
             progressDialog.setIndeterminate(false);
             progressDialog.show();
         }
